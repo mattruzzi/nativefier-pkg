@@ -34,6 +34,7 @@ jobs:
         run: |
           cd ..
           git clone https://github.com/nativefier/nativefier.git
+          cd nativefier
           npm ci
           nxp pkg .
           ls
