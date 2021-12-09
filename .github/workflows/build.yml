@@ -44,28 +44,28 @@ jobs:
           ls
           pwd
 
-      - name: Upload node16-linux-x64
+      - name: Upload nativefier-linux-x64
         uses: actions/upload-artifact@v2
         with:
-           name: node16-linux-x64
-           path: /home/runner/work/nativefier-pkg/nativefier/node16-linux-x64
-      - name: Upload node16-linux-arm64
+           name: nativefier-linux-x64
+           path: /home/runner/work/nativefier-pkg/nativefier/nativefier-linux-x64
+      - name: Upload nativefier-linux-arm64
         uses: actions/upload-artifact@v2
         with:
-           name: node16-linux-arm64
-           path: /home/runner/work/nativefier-pkg/nativefier/node16-linux-arm64
-      - name: Upload node16-win-x64
+           name: nativefier-linux-arm64
+           path: /home/runner/work/nativefier-pkg/nativefier/nativefier-linux-arm64
+      - name: Upload nativefier-win-x64
         uses: actions/upload-artifact@v2
         with:
-           name: node16-win-x64
-           path: /home/runner/work/nativefier-pkg/nativefier/node16-win-x64.exe
-      - name: Upload node16-win-arm64
+           name: nativefier-win-x64
+           path: /home/runner/work/nativefier-pkg/nativefier/nativefier-win-x64.exe
+      - name: Upload nativefier-win-arm64
         uses: actions/upload-artifact@v2
         with:
-           name: node16-win-arm64
-           path: /home/runner/work/nativefier-pkg/nativefier/node16-win-arm64.exe
-      - name: Upload node16-macos-x64
+           name: nativefier-win-arm64
+           path: /home/runner/work/nativefier-pkg/nativefier/nativefier-win-arm64.exe
+      - name: Upload nativefier-macos-x64
         uses: actions/upload-artifact@v2
         with:
-           name: node16-macos-x64
-           path: /home/runner/work/nativefier-pkg/nativefier/node16-macos-x64
+           name: nativefier-macos-x64
+           path: /home/runner/work/nativefier-pkg/nativefier/nativefier-macos-x64
