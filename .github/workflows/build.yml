@@ -18,8 +18,8 @@ on:
         description: 'Cache key'
         # Default value if no value is explicitly provided
         default: 'key'
-        # Input does not have to be provided for the workflow to run
-        required: false
+        # Input has to be provided for the workflow to run
+        required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
